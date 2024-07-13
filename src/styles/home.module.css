@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'RegularFont';
+  src: url('/fonts/Sedan-Regular.ttf') format('truetype'), 
+}
+@font-face {
+  font-family: 'ItalicFont';
+  src: url('/fonts/Sedan-Italic.ttf') format('truetype'), 
+}
+
+.background {
+    background-image: url('/images/background.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+  }
+.phonebg{
+  background-color:#8b81be;
+  background-position: center;
+}
+
+.RegFont{
+  font-family: 'RegularFont', sans-serif;
+}
+.ItaFont{
+  font-family: 'ItalicFont', sans-serif;
+}
+
+.card {
+  width: auto;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.login_register {
+  display: flex;
+  width: 100%;
+  border: 1px solid rgba(221, 221, 221, 1);
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.login_register a {
+  font-size: 1em;
+  padding: 10px 55px;
+  border: none;
+  width: 50%;
+}
+
+.login_register a.login,
+.login_register a.register {
+  border-radius: 15px;
+  background-color: transparent;
+  color: black;
+}
+
+.login_register a.active {
+  background: linear-gradient(90deg, #6F6798, #8b81be);
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.email,
+.pass{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #DDDDDD;
+  color: #A0A6A3;
+  font-family: "Roboto Mono", sans-serif;
+  box-shadow: 1px 5px 9px rgba(211, 211, 211, .7);
+}
+
+.email {
+  margin-bottom: 15px;
+}
+
+.pass {
+  margin-bottom: 15px;
+}
+.login_btn,.signup_btn {
+  font-size: 20px;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  background-color: #003A74;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: linear-gradient(-90deg, #6F6798, #8b81be);
+  box-shadow: 1px 5px 9px rgba(211, 211, 211, .9);
+}
+
+.fp {
+  width: 100%;
+  display: flex;
+  color: #5881D0;
+}
+
+.error {
+  color: red;
+}
+
+.closebttn{
+  background-color: #8b81be;
+}
